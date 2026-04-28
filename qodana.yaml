@@ -1,86 +1,10 @@
+####################################################################################################################
+# WARNING: Do not store sensitive information in this file, as its contents will be included in the Qodana report. #
+####################################################################################################################
+
 version: "1.0"
 linter: jetbrains/qodana-php:2026.1
 profile:
   name: qodana.recommended
-
-exclude:
-  - name: Annotator
-  - name: BooleanMethodNameMustStartWithQuestion
-  - name: ClassName
-  - name: ClassNamePrefixedWithPackageName
-  - name: ClassNameSameAsAncestorName
-  - name: ConfusingMainMethod
-  - name: ConstPropertyName
-  - name: DollarSignInName
-  - name: EnumEntryName
-  - name: ExceptionNameDoesntEndWithException
-  - name: FieldNamingConvention
-  - name: FunctionName
-  - name: GroovyConstantNamingConvention
-  - name: GroovyInstanceMethodNamingConvention
-  - name: GroovyInstanceVariableNamingConvention
-  - name: GroovyLocalVariableNamingConvention
-  - name: GroovyParameterNamingConvention
-  - name: GroovyStaticMethodNamingConvention
-  - name: GroovyStaticVariableNamingConvention
-  - name: JavaModuleNaming
-  - name: LambdaParameterNamingConvention
-  - name: LambdaUnfriendlyMethodOverload
-  - name: LocalVariableName
-  - name: LocalVariableNamingConvention
-  - name: MethodNameSameAsClassName
-  - name: MethodNameSameAsParentName
-  - name: MisspelledMethodName
-  - name: NewClassNamingConvention
-  - name: NewGroovyClassNamingConvention
-  - name: NewMethodNamingConvention
-  - name: NonBooleanMethodNameMayNotStartWithQuestion
-  - name: NonExceptionNameEndsWithException
-  - name: ObjectPropertyName
-  - name: OverloadedMethodsWithSameNumberOfParameters
-  - name: OverloadedVarargsMethod
-  - name: PackageName
-  - name: PackageNamingConvention
-  - name: ParameterNameDiffersFromOverriddenParameter
-  - name: ParameterNamingConvention
-  - name: PhpClassNamingConventionInspection
-  - name: PhpCompoundNamespaceDepthInspection
-  - name: PhpConstantNamingConventionInspection
-  - name: PhpFunctionNamingConventionInspection
-  - name: PhpIncludeInspection
-  - name: PhpLongTypeFormInspection
-  - name: PhpMethodNamingConventionInspection
-  - name: PhpMissingDocCommentInspection
-  - name: PhpMissingVisibilityInspection
-  - name: PhpModifierOrderInspection
-  - name: PhpNewClassMissingParameterListInspection
-  - name: PhpParameterNameChangedDuringInheritanceInspection
-  - name: PhpPossiblePolymorphicInvocationInspection
-  - name: PhpPropertyNamingConventionInspection
-  - name: PhpSeparateElseIfInspection
-  - name: PhpTraditionalSyntaxArrayLiteralInspection
-  - name: PhpTraitsUseListInspection
-  - name: PhpUndefinedCallbackInspection
-  - name: PhpUndefinedClassConstantInspection
-  - name: PhpUndefinedClassInspection
-  - name: PhpUndefinedConstantInspection
-  - name: PhpUndefinedFieldInspection
-  - name: PhpUndefinedFunctionInspection
-  - name: PhpUndefinedGotoLabelInspection
-  - name: PhpUndefinedMethodInspection
-  - name: PhpUndefinedNamespaceInspection
-  - name: PhpUndefinedVariableInspection
-  - name: PhpUsageOfSilenceOperatorInspection
-  - name: PhpVariableNamingConventionInspection
-  - name: PhpVariableVariableInspection
-  - name: PhpVarUsageInspection
-  - name: PrivatePropertyName
-  - name: PropertyName
-  - name: QuestionableName
-  - name: StandardVariableNames
-  - name: SyntaxError
-  - name: TestFunctionName
-  - name: UpperCaseFieldNameNotConstant
 include:
   - name: CheckDependencyLicenses
-  - name: PhpVulnerablePathsInspection
